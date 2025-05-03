@@ -37,7 +37,7 @@ export default function Header() {
     //     </div>
     //   </div>
     // </section>
-    <header className="flex items-center justify-between px-12">
+    <header className="flex items-center justify-between px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
       <a href="#">
         <img className="w-32" src="./src/assets/siteLogo.png" alt="" />
       </a>
