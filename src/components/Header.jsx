@@ -37,9 +37,9 @@ export default function Header() {
     //     </div>
     //   </div>
     // </section>
-    <header className="flex items-center justify-between px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
+    <header className="flex items-center justify-between px-6 md:px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
       <a href="#">
-        <img className="w-32" src="./src/assets/siteLogo.png" alt="" />
+        <img className="w-24 md:w-32" src="./src/assets/siteLogo.png" alt="" />
       </a>
       <nav className="hidden md:block space-x-6 lg:space-x-8 text-white font-bold lg:text-2xl">
         <a href="#">Home</a>
